@@ -6,3 +6,16 @@ https://coolors.co/0a0908-22333b-eae0d5-c6ac8f-5e503f
 eae0d5 Almond Cream
 c6ac8f Khaki Beige
 5e503f Stone Brown
+*/
+
+
+/**** FONTS ****/
+body, p, div {
+    font-family: "Lora", serif;
+}
+
+h1, h2, h3, h4, h5, h6, .tp-caption {
+    font-family: "Quintessential", serif !important;
+}
+
+
