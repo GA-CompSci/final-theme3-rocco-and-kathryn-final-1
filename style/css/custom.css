@@ -18,4 +18,17 @@ h1, h2, h3, h4, h5, h6, .tp-caption {
     font-family: "Quintessential", serif !important;
 }
 
+/**** FONTS ****/
+body, p, div {
+    font-family: "Lora", serif;
+    color: #22333b;
+}
 
+h1, h2, h3, h4, h5, h6, .tp-caption {
+    font-family: "Quintessential", serif !important;
+    color: #22333b; 
+}
+
+html, body {
+    background-color: #eae0d5 !important;
+}
