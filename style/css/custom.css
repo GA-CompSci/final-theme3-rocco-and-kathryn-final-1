@@ -32,3 +32,16 @@ h1, h2, h3, h4, h5, h6, .tp-caption {
 html, body {
     background-color: #eae0d5 !important;
 }
+/**** NAV ****/
+.navbar-brand a{
+    font-family: "Quintessential", serif !important;
+    font-weight: 900; 
+    font-size: 40px;
+    color: #22333b;
+}
+
+/**** COLORS  ****/
+.revolution .tp-caption {
+    color: #0a0908;
+    text-shadow: 1px 2px 3px white;
+}
