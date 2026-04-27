@@ -48,5 +48,20 @@ html, body {
 
 /**** FOOTER ****/
 footer p, footer div{
-    color: pink;
+    color: #eae0d5;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+}
+
+footer .row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer .row > * {
+  margin: 0 20px;
 }
