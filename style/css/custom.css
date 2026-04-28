@@ -6,38 +6,75 @@ https://coolors.co/0a0908-22333b-eae0d5-c6ac8f-5e503f
 eae0d5 Almond Cream
 c6ac8f Khaki Beige
 5e503f Stone Brown
+#2f6690 Baltic Blue
 */
 
 
 /**** FONTS ****/
-body, p, div {
+body,
+p,
+div {
     font-family: "Lora", serif;
 }
 
-h1, h2, h3, h4, h5, h6, .tp-caption {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.tp-caption {
     font-family: "Quintessential", serif !important;
 }
 
 /**** FONTS ****/
-body, p, div {
+body,
+p,
+div {
     font-family: "Lora", serif;
     color: #22333b;
 }
 
-h1, h2, h3, h4, h5, h6, .tp-caption {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.tp-caption {
     font-family: "Quintessential", serif !important;
-    color: #22333b; 
+    color: #22333b;
 }
 
-html, body {
+html,
+body {
     background-color: #eae0d5 !important;
 }
+
 /**** NAV ****/
-.navbar-brand a{
+.navbar-brand a {
     font-family: "Quintessential", serif !important;
-    font-weight: 900; 
+    font-weight: 900;
     font-size: 40px;
+    text-shadow: 1px 2px 3px white;
     color: #22333b;
+}
+
+.cbp-filter-container .cbp-filter-item:hover,
+.cbp-filter-container .cbp-filter-item.cbp-filter-item-active,
+.sticky-filter ul li a:hover,
+.sticky-filter ul li.current a {
+    color: #22333b !important;
+}
+
+.navbar.fixed .navbar-brand a {
+    color: #eae0d5;
+}
+
+.navbar .nav>li.current>a,
+.navbar .navbar-nav>li>a:focus,
+.navbar .nav>li>a:hover {
+    color: #2f6690 !important;
 }
 
 /**** COLORS  ****/
@@ -46,22 +83,49 @@ html, body {
     text-shadow: 1px 2px 3px white;
 }
 
+.bg-white {
+    background-color: white
+}
+
+.bg-jetblack {
+    background-color: #22333b !important;
+    color: white !important;
+}
+
+.bg-jetblack p, .bg-jetblack h3 {
+    color: white !important;
+
+}
+
+.progress.plain .bar {
+    background: gray !important;
+}
+
+.progress-list li em {
+    color: gray;
+}
+
 /**** FOOTER ****/
-footer p, footer div{
+footer p,
+footer div {
     color: #eae0d5;
 }
 
 footer {
-  width: 100%;
-  text-align: center;
+    width: 100%;
+    text-align: center;
 }
 
 footer .row {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-footer .row > * {
-  margin: 0 20px;
+footer .row>* {
+    margin: 0 20px;
+}
+
+.cbp-item-wrapper p {
+    color: white;
 }
