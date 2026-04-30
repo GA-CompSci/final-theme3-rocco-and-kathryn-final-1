@@ -6,7 +6,8 @@ https://coolors.co/0a0908-22333b-eae0d5-c6ac8f-5e503f
 eae0d5 Almond Cream
 c6ac8f Khaki Beige
 5e503f Stone Brown
-#2f6690 Baltic Blue
+2f6690 Baltic Blue
+edede9 Parchment
 */
 
 
@@ -52,12 +53,8 @@ body {
 }
 
 /**** NAV ****/
-.navbar-brand a {
-    font-family: "Quintessential", serif !important;
-    font-weight: 900;
-    font-size: 40px;
-    text-shadow: 1px 2px 3px white;
-    color: #22333b;
+.navbar-brand img {
+    max-width: 215px;
 }
 
 .cbp-filter-container .cbp-filter-item:hover,
@@ -105,10 +102,34 @@ body {
     color: gray;
 }
 
+.hero-caption-wrap {
+    background: gray;
+}
+/**** SLIDER ****/
+
+.owl-item .box {
+  background-color: #22333b;
+}
+.owl-item .box p {
+    color: white; 
+}
+.owl-item .box .meta span {
+    color: gray;
+}
+.owl-item .box h4 {
+    color:  #edede9 !important;
+}
+
+.category.cat9 span a {
+    background: #aec3b0;
+}
+.category.cat12 span a {
+    background: #aec3b0;
+}
 /**** FOOTER ****/
 footer p,
 footer div {
-    color: #eae0d5;
+    color: gray;
 }
 
 footer {
