@@ -54,7 +54,7 @@ body {
 
 /**** NAV ****/
 .navbar-brand img {
-    max-width: 215px;
+    max-width: 218px;
 }
 
 .cbp-filter-container .cbp-filter-item:hover,
@@ -72,6 +72,9 @@ body {
 .navbar .navbar-nav>li>a:focus,
 .navbar .nav>li>a:hover {
     color: #2f6690 !important;
+}
+.navbar.fixed ul.nav.navbar-nav {
+    margin-top: 37px;
 }
 
 /**** COLORS  ****/
@@ -102,16 +105,24 @@ body {
     color: gray;
 }
 
+/***** HERO ******/
+/***** HERO ******/
+/***** HERO ******/
+
 .hero-caption-wrap {
-    background: gray;
+    display: inline-block;
+    background: rgba(10, 9, 8, 0.45);
+    padding: 18px 26px;
+    border-radius: 6px;
 }
+
 /**** SLIDER ****/
 
 .owl-item .box {
   background-color: #22333b;
 }
 .owl-item .box p {
-    color: white; 
+    color: white;  
 }
 .owl-item .box .meta span {
     color: gray;
@@ -125,6 +136,12 @@ body {
 }
 .category.cat12 span a {
     background: #aec3b0;
+}
+.category.cat6 span a {
+    background: #aec3b0;
+}
+.category.cat5 span a {
+       background: #aec3b0;
 }
 /**** FOOTER ****/
 footer p,
@@ -150,3 +167,5 @@ footer .row>* {
 .cbp-item-wrapper p {
     color: white;
 }
+
+
