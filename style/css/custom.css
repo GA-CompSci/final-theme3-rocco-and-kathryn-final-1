@@ -28,7 +28,6 @@ h6,
     font-family: "Quintessential", serif !important;
 }
 
-/**** FONTS ****/
 body,
 p,
 div {
@@ -47,10 +46,6 @@ h6,
     color: #22333b;
 }
 
-html,
-body {
-    background-color: #eae0d5 !important;
-}
 
 /**** NAV ****/
 .navbar-brand img {
@@ -78,9 +73,9 @@ body {
 }
 
 /**** COLORS  ****/
-.revolution .tp-caption {
-    color: #0a0908;
-    text-shadow: 1px 2px 3px white;
+html,
+body {
+    background-color: #eae0d5 !important;
 }
 
 .bg-white {
@@ -109,11 +104,31 @@ body {
 /***** HERO ******/
 /***** HERO ******/
 
-.hero-caption-wrap {
-    display: inline-block;
-    background: rgba(10, 9, 8, 0.45);
-    padding: 18px 26px;
+.tp-caption.hero-text {
+    background: rgba(10, 9, 8, 0.45) !important;
+    padding: 20px 26px !important;
     border-radius: 6px;
+}
+
+.tp-caption.hero-text h1,
+.tp-caption.hero-text .large,
+.tp-caption.hero-text .medium {
+    color: #eae0d5 !important;
+    text-shadow: none;
+    display: block;
+    margin: 0;
+    font-size:4em;
+    line-height:1em;
+}
+
+.tp-caption.hero-text .medium {
+    margin-top: 10px;
+    font-size: 2em;
+}
+
+.revolution .tp-caption:not(.hero-text) {
+    color: #0a0908;
+    text-shadow: 1px 2px 3px white;
 }
 
 /**** SLIDER ****/
