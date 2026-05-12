@@ -68,6 +68,7 @@ h6,
 .navbar .nav>li>a:hover {
     color: #2f6690 !important;
 }
+
 .navbar.fixed ul.nav.navbar-nav {
     margin-top: 37px;
 }
@@ -87,7 +88,8 @@ body {
     color: white !important;
 }
 
-.bg-jetblack p, .bg-jetblack h3 {
+.bg-jetblack p,
+.bg-jetblack h3 {
     color: white !important;
 
 }
@@ -117,8 +119,8 @@ body {
     text-shadow: none;
     display: block;
     margin: 0;
-    font-size:4em;
-    line-height:1em;
+    font-size: 4em;
+    line-height: 1em;
 }
 
 .tp-caption.hero-text .medium {
@@ -134,30 +136,42 @@ body {
 /**** SLIDER ****/
 
 .owl-item .box {
-  background-color: #22333b;
+    background-color: #22333b;
 }
+
 .owl-item .box p {
-    color: white;  
+    color: white;
 }
+
 .owl-item .box .meta span {
     color: gray;
 }
+
 .owl-item .box h4 {
-    color:  #edede9 !important;
+    color: #edede9 !important;
 }
 
 .category.cat9 span a {
     background: #aec3b0;
 }
+
 .category.cat12 span a {
     background: #aec3b0;
 }
+
 .category.cat6 span a {
     background: #aec3b0;
 }
+
 .category.cat5 span a {
-       background: #aec3b0;
+    background: #aec3b0;
 }
+
+.carousel.blog .owl-nav {
+    /** FIX THE VERTICIAL SPACING */
+    top: 50%;
+}
+
 /**** FOOTER ****/
 footer p,
 footer div {
@@ -182,5 +196,7 @@ footer .row>* {
 .cbp-item-wrapper p {
     color: white;
 }
-
-
+/**** FOOTER ****/
+.btn, .vanilla-form label.custom-select span {
+    background: #aec3b0
+}
