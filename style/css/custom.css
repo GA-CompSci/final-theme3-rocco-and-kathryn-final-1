@@ -8,6 +8,8 @@ c6ac8f Khaki Beige
 5e503f Stone Brown
 2f6690 Baltic Blue
 edede9 Parchment
+8da9c4 Powder blue
+aec3b0
 */
 
 
@@ -46,6 +48,11 @@ h6,
     color: #22333b;
 }
 
+.section-title {
+	font-size: 37px;
+	line-height: 28px;
+	margin-bottom: 20px;
+}
 
 /**** NAV ****/
 .navbar-brand img {
@@ -77,6 +84,23 @@ h6,
 html,
 body {
     background-color: #eae0d5 !important;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active {
+  background: #8da9c4;
+}
+
+.category.cat9 span a:hover {
+    background: #8da9c4;
+}
+.category.cat12 span a:hover {
+    background: #8da9c4;
+}
+.category.cat5 span a:hover {
+    background: #8da9c4;
+}
+.category.cat6 span a:hover {
+    background: #8da9c4;
 }
 
 .bg-white {
@@ -196,7 +220,8 @@ footer .row>* {
 .cbp-item-wrapper p {
     color: white;
 }
-/**** FOOTER ****/
+
 .btn, .vanilla-form label.custom-select span {
     background: #aec3b0
 }
+

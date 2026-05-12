@@ -209,7 +209,7 @@ $(document).ready(function() {
         filters: '#js-filters-mosaic',
         loadMore: '#js-grid-mosaic-more',
         loadMoreAction: 'click',
-        layoutMode: 'mosaic',
+        layoutMode: 'grid',
         sortToPreventGaps: true,
         defaultFilter: '*',
         animationType: 'quicksand',
