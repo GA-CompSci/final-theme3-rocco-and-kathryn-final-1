@@ -76,9 +76,23 @@ h6,
     color: #2f6690 !important;
 }
 
+.navbar .navbar-nav {
+  margin-top: 27px;
+}
+
 .navbar.fixed ul.nav.navbar-nav {
     margin-top: 37px;
 }
+
+
+
+.social-wrapper i {
+  font-size: 20px !important;
+}
+.social-wrapper i:hover {
+  color: #8da9c4 !important;
+}
+
 
 /**** COLORS  ****/
 html,
